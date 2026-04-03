@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monsoon Shantiniketan English Academy</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: linear-gradient(to bottom, #e6fffa, #c6f6d5); }
+    header { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1588072432836-e10032774350'); background-size: cover; background-position: center; color: white; text-align: center; padding: 100px 20px; }
+    header h1 { font-size: 40px; }
+    header p { margin-top: 10px; font-size: 18px; }
+    nav { background: #1a202c; display: flex; justify-content: center; padding: 15px; position: sticky; top: 0; }
+    nav a { color: white; margin: 0 20px; text-decoration: none; font-weight: 600; }
+    nav a:hover { color: #38b2ac; }
+    section { padding: 60px 20px; text-align: center; }
+    .about, .courses, .contact { background: #f0fff4; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+    .btn { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #38b2ac; color: white; text-decoration: none; border-radius: 5px; }
+    footer { background: #1a202c; color: white; text-align: center; padding: 20px; }
+    form input, form select, form textarea { border: 1px solid #ccc; border-radius: 5px; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Monsoon Shantiniketan English Academy</h1>
+  <p>Quality Education | Bright Future | Strong Values</p>
+  <a href="#admission" class="btn">Apply Now</a>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#admission">Admission</a>
+  <a href="#contact">Contact</a>
+  <a href="#student-login">Student Login</a>
+</nav>
+
+<section id="student-login" class="about">
+  <h2>🔑 Student Login</h2>
+  <form style="max-width:400px; margin:20px auto; text-align:left;">
+    <label>Username:</label><br>
+    <input type="text" name="username" required style="width:100%; padding:8px; margin:8px 0;"><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password" required style="width:100%; padding:8px; margin:8px 0;"><br>
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+  <p>Forgot password? <a href="#">Click here</a></p>
+</section>
+
+<!-- Existing content continues below... -->
+
+</body>
+</html>
