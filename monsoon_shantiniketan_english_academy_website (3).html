@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monsoon Shantiniketan English Academy</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: linear-gradient(to bottom, #e6fffa, #c6f6d5); }
+    header { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1588072432836-e10032774350'); background-size: cover; background-position: center; color: white; text-align: center; padding: 100px 20px; }
+    header h1 { font-size: 40px; }
+    header p { margin-top: 10px; font-size: 18px; }
+    nav { background: #1a202c; display: flex; justify-content: center; padding: 15px; position: sticky; top: 0; flex-wrap: wrap; }
+    nav a { color: white; margin: 5px 20px; text-decoration: none; font-weight: 600; }
+    nav a:hover { color: #38b2ac; }
+    section { padding: 60px 20px; text-align: center; }
+    .about, .courses, .contact, .current-affairs, .csas-registration, .principal { background: #f0fff4; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+    .btn { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #38b2ac; color: white; text-decoration: none; border-radius: 5px; }
+    footer { background: #1a202c; color: white; text-align: center; padding: 20px; }
+    input, select { padding: 10px; margin: 10px 0; width: 80%; border-radius: 5px; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Monsoon Shantiniketan English Academy</h1>
+  <p>Quality Education | Bright Future | Strong Values</p>
+  <a href="#admission" class="btn">Apply Now</a>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#current">Current Affairs</a>
+  <a href="#csas">CSAS Registration</a>
+  <a href="#principal">Principal</a>
+  <a href="#admission">Admission</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+  <h2>About Our School</h2>
+  <p>We provide modern education with discipline, creativity, and excellence.</p>
+</section>
+
+<section id="courses" class="courses">
+  <h2>Our Courses</h2>
+  <div class="cards">
+    <div class="card">Primary Education</div>
+    <div class="card">Secondary Education</div>
+    <div class="card">English Communication</div>
+    <div class="card">Computer Classes</div>
+  </div>
+</section>
+
+<section id="current" class="current-affairs">
+  <h2>Current Affairs</h2>
+  <p>Stay updated with the latest national and international news relevant to students.</p>
+</section>
+
+<section id="csas" class="csas-registration">
+  <h2>CSAS Registration</h2>
+  <p>Register for the Central School Admission System (CSAS) online here.</p>
+  <form action="#" method="POST">
+    <input type="text" name="student_name" placeholder="Student Name" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="tel" name="phone" placeholder="Phone Number" required><br>
+    <select name="grade" required>
+      <option value="">Select Grade</option>
+      <option value="1">Grade 1</option>
+      <option value="2">Grade 2</option>
+      <option value="3">Grade 3</option>
+      <option value="4">Grade 4</option>
+      <option value="5">Grade 5</option>
+    </select><br>
+    <button type="submit" class="btn">Register</button>
+  </form>
+</section>
+
+<section id="principal" class="principal">
+  <h2>About the Principal</h2>
+  <p>Meet our Principal: <strong>Monzil Alom</strong></p>
+  <p>With years of experience in education, Principal Monzil Alom ensures the highest standards of teaching and student care at our academy.</p>
+</section>
+
+<footer>
+  <p>© 2026 Monsoon Shantiniketan English Academy</p>
+</footer>
+
+</body>
+</html>
